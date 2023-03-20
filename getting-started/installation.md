@@ -2,7 +2,7 @@
 
 The multichain cryptocurrency wallet can be installed using npm or yarn...
 
-{% tab %}
+{% tabs %}
 
 {% tab title="npm" %}
 
@@ -19,4 +19,4 @@ yarn add multichain-crypto-wallet
 
 {% endtab %}
 
-{% endtab }
+{% endtabs }
