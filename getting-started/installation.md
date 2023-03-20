@@ -16,7 +16,18 @@ npm install multichain-crypto-wallet
 
 ```text
 yarn add multichain-crypto-wallet
+```
 
 {% endtab %}
 
 {% endtabs }
+
+## USAGE
+
+```text
+const multichainWallet = require('multichain-crypto-wallet');
+```
+
+```text
+import * as multichainWallet from 'multichain-crypto-wallet';
+```
