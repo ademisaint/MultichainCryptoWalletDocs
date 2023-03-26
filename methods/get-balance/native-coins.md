@@ -59,3 +59,11 @@ const data = await multichainWallet.getBalance({
 {% endtab %}
 
 {% endtabs %}
+
+## Response
+
+```text
+{
+  balance: 2;
+}
+```
