@@ -2,6 +2,8 @@
 
 Enables ETH transfer and transaction overriding.
 
+## Transfer
+
 {% tabs %}
 
 {% tab title="ETH" %}
@@ -40,6 +42,10 @@ const transfer = await multichainWallet.transfer({
 
 ## override
 
+{% tabs %}
+
+{% tab title="ETH" %}
+
 // Overriding pending ETH transaction.
 const transfer = await multichainWallet.transfer({
   recipientAddress: '0x2455eC6700092991Ce0782365A89d5Cd89c8Fa22',
@@ -52,6 +58,10 @@ const transfer = await multichainWallet.transfer({
   nonce: 1, // The pending transaction nonce
   data: 'Money for feeding', // Send a message
 });
+
+{% endtab %}
+
+{% tab title="ERC20" %}
 
 // Overriding ERC20 token pending transaction.
 const transfer = await multichainWallet.transfer({
@@ -66,5 +76,12 @@ const transfer = await multichainWallet.transfer({
   nonce: 1, // The pending transaction nonce
 });
 
+{% endtab %}
+
 ## Response
 
+```text
+{
+  object;
+}
+```
