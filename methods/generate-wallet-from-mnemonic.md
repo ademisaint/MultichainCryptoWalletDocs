@@ -6,6 +6,7 @@ This generates a wallet from a Mnemonic phrase. The method takes an object as a 
 
 {% tab title="ETH" %}
 
+```js
 // Generate an Ethereum wallet from mnemonic.
 const wallet = multichainWallet.generateWalletFromMnemonic({
   mnemonic:
@@ -13,11 +14,13 @@ const wallet = multichainWallet.generateWalletFromMnemonic({
   derivationPath: "m/44'/60'/0'/0/0", // Leave empty to use default derivation path
   network: 'ethereum',
 }); // NOTE - Address generated will work for EVM compatible blockchains E.g. Binance smart chain, Polygon etc
+```
 
 {% endtab %}
 
 {% tab title="BTC" %}
 
+```js
 // Generate a Bitcoin wallet from mnemonic.
 const wallet = multichainWallet.generateWalletFromMnemonic({
   mnemonic:
@@ -25,11 +28,13 @@ const wallet = multichainWallet.generateWalletFromMnemonic({
   derivationPath: "m/44'/0'/0'/0/0", // Leave empty to use default derivation path
   network: 'bitcoin', // 'bitcoin' or 'bitcoin-testnet'
 });
+```
 
 {% endtab %}
 
 {% tab title="SOL" %}
 
+```js
 // Generate a Solana wallet from mnemonic.
 const wallet = multichainWallet.generateWalletFromMnemonic({
   mnemonic:
@@ -37,11 +42,13 @@ const wallet = multichainWallet.generateWalletFromMnemonic({
   derivationPath: "m/44'/501'/0'/0'", // Leave empty to use default derivation path
   network: 'solana',
 });
+```
 
 {% endtab %}
 
 {% tab title="WAVES" %}
 
+```js
 // Generate a Waves wallet from mnemonic.
 const wallet = multichainWallet.generateWalletFromMnemonic({
   mnemonic:
@@ -49,14 +56,15 @@ const wallet = multichainWallet.generateWalletFromMnemonic({
   cluster: 'testnet',
   network: 'waves',
 });
+```
 
 {% endtab %}
 
-{% endtab %}
+{% endtabs %}
 
 ## Response
 
-```text
+```json
 {
   address: '0x627306090abaB3A6e1400e9345bC60c78a8BEf57',
   privateKey: '0xc87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3',

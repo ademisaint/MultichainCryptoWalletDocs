@@ -6,6 +6,7 @@ Allows for the transfer of BTC from one address to another.
 
 {% tab title="BTC" %}
 
+```js
 // Transferring BTC from one address to another.
 const response = await multichainWallet.transfer({
   privateKey: 'L3tSvMViDit1GSp7mbV2xFCGv6M45kDNuSyNY9xyUxmUPBFrBkc4',
@@ -15,12 +16,15 @@ const response = await multichainWallet.transfer({
   fee: 10000, // Optional param default value is 10000
   subtractFee: false, // Optional param default value is false
 });
+```
 
 {% endtab %}
 
+{% endtabs %}
+
 ## Response
 
-```text
+```json
 {
   object;
 }

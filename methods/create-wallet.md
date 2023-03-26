@@ -2,11 +2,11 @@
 
 A new wallet is created using this technique. A payload object can be used as a parameter for the method. The payload's parameter is:
 
-{% tab %}
+{% tabs %}
 
 {% tab title="ethereum" %}
 
-```text
+```js
 // Creating an Ethereum wallet.
 const wallet = multichainWallet.createWallet({
   derivationPath: "m/44'/60'/0'/0/0", // Leave empty to use default derivation path
@@ -18,7 +18,7 @@ const wallet = multichainWallet.createWallet({
 
 {% tab title="Bitcoin" %}
 
-```text
+```js
 // Creating a Bitcoin wallet.
 const wallet = multichainWallet.createWallet({
   derivationPath: "m/44'/0'/0'/0/0", // Leave empty to use default derivation path
@@ -30,7 +30,7 @@ const wallet = multichainWallet.createWallet({
 
 {% tab title="solana" %}
 
-```text
+```js
 // Creating a Solana wallet.
 const wallet = multichainWallet.createWallet({
   derivationPath: "m/44'/501'/0'/0'", // Leave empty to use default derivation path
@@ -42,7 +42,7 @@ const wallet = multichainWallet.createWallet({
 
 {% tab title="waves" %}
 
-```text
+```js
 // Creating a Waves wallet.
 const wallet = await multichainWallet.createWallet({
   cluster: 'testnet' // Can also be mainnet,
@@ -52,11 +52,11 @@ const wallet = await multichainWallet.createWallet({
 
 {% endtab %}
 
-{% endtab %}
+{% endtabs %}
 
 ## Response
 
-´´´Text
+```json
 {
   address: '0xfBE11AC0258cc8288cA24E818691Eb062f7042E9',
   privateKey: '0xfdf745f45d1942feea79b4c0a3fc1ca67da366899f7e6cebaa06496806ca8127',

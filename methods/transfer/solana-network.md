@@ -6,6 +6,7 @@ Allows the transfer of SOL and associated tokens between wallets, allowing for s
 
 {% tab title="SOL" %}
 
+````js
 // Transferring SOL from one address to another.
 const transfer = await multichainWallet.transfer({
   recipientAddress: '9DSRMyr3EfxPzxZo9wMBPku7mvcazHTHfyjhcfw5yucA',
@@ -15,11 +16,13 @@ const transfer = await multichainWallet.transfer({
   privateKey:
     'bXXgTj2cgXMFAGpLHkF5GhnoNeUpmcJDsxXDhXQhQhL2BDpJumdwMGeC5Cs66stsN3GfkMH8oyHu24dnojKbtfp',
 });
+````
 
 {% endtab %}
 
 {% tab title="TOKEN" %}
 
+```js
 // Transferring a token from one address to another.
 const transfer = await multichainWallet.transfer({
   recipientAddress: '9DSRMyr3EfxPzxZo9wMBPku7mvcazHTHfyjhcfw5yucA',
@@ -30,14 +33,15 @@ const transfer = await multichainWallet.transfer({
   privateKey:
     'h5KUPKU4z8c9nhMCQsvCLq4q6Xn9XK1B1cKjC9bJVLQLgJDvknKCBtZdHKDoKBHuATnSYaHRvjJSDdBWN8P67hh',
 });
+```
 
 {% endtab %}
 
-{% endtab %}
+{% endtabs %}
 
 # Response
 
-```text
+```json
 {
   hash: '3nGq2yczqCpm8bF2dyvdPtXpnFLJ1oGWkDfD6neLbRay8SjNqYNhWQBKE1ZFunxvFhJ47FyT6igNpYPP293jXCZk';
 }

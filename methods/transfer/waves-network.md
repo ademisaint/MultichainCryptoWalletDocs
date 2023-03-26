@@ -2,7 +2,11 @@
 
 This option allows for the seamless transfer of WAVES and associated tokens between wallets within the Waves blockchain ecosystem.
 
-````text
+{% tabs %}
+
+{% tab title="WAVES" %}
+
+```js
 // Transferring WAVES from one address to another.
 
 const response = await multichainWallet.transfer({
@@ -13,7 +17,13 @@ const response = await multichainWallet.transfer({
   privateKey:
     'mushroom deliver work spray hire nuclear wrong deputy march six midnight outside motor differ adult',
 });
+```
 
+{% endtab %}
+
+{% tab title="TOKEN" %}
+
+```js
 // Transferring a token from one address to another.
 const transfer = await multichainWallet.transfer({
   recipientAddress: '3N4x4ML4D6fiU18Tpw86puRoN78FCTs9VQu',
@@ -24,11 +34,15 @@ const transfer = await multichainWallet.transfer({
   privateKey:
     'mushroom deliver work spray hire nuclear wrong deputy march six midnight outside motor differ adult',
 });
-````
+```
+
+{% endtab %}
+
+{% endtabs %}
 
 ## Response
 
-```text
+```json
 {
   type: 4,
   id: '9CbA3dsyEvbdf52gqeBvVkjEP5zBmCQPANjguNznHryf',
