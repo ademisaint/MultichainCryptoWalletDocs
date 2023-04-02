@@ -58,6 +58,13 @@ const receipt = await multichainWallet.getTransaction({
 
 {% endtabs %}
 
+## Parameters 
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| Hash | network address | yes | string | header
+| Network | network type | yes | string | query
+
 ## Response
 
 ```json

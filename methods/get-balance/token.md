@@ -48,6 +48,14 @@ const data = await multichainWallet.getBalance({
 
 {% endtabs %}
 
+## Parameter
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| Address | network address | yes | string | path
+| Network | network type | yes | string | header
+| Token address | token address | yes | string | query
+
 ## Response
 
 ```text

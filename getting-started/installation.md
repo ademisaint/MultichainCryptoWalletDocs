@@ -1,6 +1,6 @@
 # INSTALLATION
 
-The multichain cryptocurrency wallet can be installed using npm or yarn...
+The multichain cryptocurrency wallet can be installed using npm or yarn.
 
 {% tabs %}
 
@@ -20,14 +20,14 @@ yarn add multichain-crypto-wallet
 
 {% endtab %}
 
-{% endtabs }
+{% endtabs %}
 
 ## USAGE
 
-```text
+```js
 const multichainWallet = require('multichain-crypto-wallet');
 ```
 
-```text
+```ts
 import * as multichainWallet from 'multichain-crypto-wallet';
 ```

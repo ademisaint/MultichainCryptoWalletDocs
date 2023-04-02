@@ -1,6 +1,6 @@
 # Get Waves Token Info
 
-Allows for fetching Waves based asset info
+This method is used for fetching Waves based asset info.
 
 ```js
 // getting token info.
@@ -13,6 +13,14 @@ const info = await multichainWallet.getTokenInfo({
 ```
 
 ## Response
+
+## Prameters
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| Network | network type | yes | string | query
+| rpcUrl | rpcUrl | No | string | query
+| Address | contract address | yes | string | header
 
 ```json
 {

@@ -54,6 +54,12 @@ const wallet = await multichainWallet.createWallet({
 
 {% endtabs %}
 
+## Parameters
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| Network | network type | yes | string | header
+
 ## Response
 
 ```json

@@ -1,6 +1,6 @@
 # Decrypt Encrypted JSON
 
-This feature enables the decryption of encrypted JSONs, also known as keystore.
+This method enables the decryption of encrypted JSONs, also known as keystore.
 
 ```js
 // decrypting encrypted JSON.

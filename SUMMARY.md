@@ -5,7 +5,6 @@
 ## GETTING STARTED
 
 * [INSTALLATION](getting-started/installation.md)
-* [USAGE](getting-started/usage.md)
 
 ## METHODS
 

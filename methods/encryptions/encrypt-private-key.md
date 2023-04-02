@@ -1,6 +1,6 @@
 # Encrypt Private Key
 
-The feature encrypts private keys for Ethereum and EVM-compatible blockchains, adding an extra layer of protection to your assets.
+The method encrypts private keys for Ethereum and EVM-compatible blockchains, adding an extra layer of protection to your assets.
 
 ```js
 // encrypt private key.

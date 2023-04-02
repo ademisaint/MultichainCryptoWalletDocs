@@ -62,6 +62,14 @@ const wallet = multichainWallet.generateWalletFromMnemonic({
 
 {% endtabs %}
 
+## Parameters
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| Mnemonic | mnemonics of the wallet | yes | string | header
+| Network | network type | yes | string | query
+
+
 ## Response
 
 ```json

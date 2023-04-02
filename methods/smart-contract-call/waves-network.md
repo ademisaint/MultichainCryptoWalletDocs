@@ -39,6 +39,15 @@ const data = await multichainWallet.smartContractCall({
 
 {% endtabs %}
 
+## Prameters
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| private key | secret key | yes | string | header
+| Network | network type | yes | string | query
+| rpcUrl | rpcUrl | No | string | query
+| address | contractAddress | yes | string | header
+
 ## Response
 
 ````json

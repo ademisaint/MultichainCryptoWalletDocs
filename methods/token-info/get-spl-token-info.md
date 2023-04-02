@@ -13,6 +13,14 @@ const info = await multichainWallet.getTokenInfo({
 });
 ```
 
+## Prameters
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| Address | contact address | yes | string | header
+| Network | network type | yes | string | query
+| rpcUrl | rpcUrl | No | string | query
+
 ## Response
 
 ```json

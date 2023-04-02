@@ -40,6 +40,17 @@ const transfer = await multichainWallet.transfer({
 
 {% endtabs %}
 
+## Prameters
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| Private key | secret key | yes | string | header
+| Network | network type | yes | string | header
+| Token Address | contract address  | yes | string | header
+| Recipient address | reciever's address | yes | string | header
+| Amount | quatity of coin | yes | string | header
+| rpcUrl| remote procedure call url | no | string | query
+
 ## Response
 
 ```json

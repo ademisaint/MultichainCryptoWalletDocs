@@ -1,6 +1,8 @@
 # Smart Contract Call
 
-This can be used to make custom smart contract interaction by specifying the contract ABI and function types.
+This method is used to make custom smart contract interaction by specifying the contract ABI and function types.
 
-[Ethereun Network](./ethereum-network.md)
-[Waves Network](./waves-network.md)
+| Network  | Description |
+| -------- | ------------|
+| [Ethereum Network](./ethereum-network.md) | ethereum
+| [Waves Network](./waves-network.md) | waves

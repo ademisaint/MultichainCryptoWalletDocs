@@ -5,6 +5,7 @@ This process is used to produce mnemonics. The default word count is 12, but if 
 ```js
 const mnemonic = multichainWallet.generateMnemonic();
 
+
 // Note: Mnemonics with less than 12 words have low entropy and may be guessed by an attacker.
 ```
 

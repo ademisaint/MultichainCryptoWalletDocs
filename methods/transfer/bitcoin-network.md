@@ -1,6 +1,6 @@
 # Bitcoin Network
 
-Allows for the transfer of BTC from one address to another.
+This method allows for the transfer of BTC from one address to another.
 
 {% tabs %}
 
@@ -21,6 +21,16 @@ const response = await multichainWallet.transfer({
 {% endtab %}
 
 {% endtabs %}
+
+## Prameters
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| Private key | private key | yes | string | header
+| Network | network type | yes | string | header
+| Recipient address | reciever's address | yes | string | header
+| Amount | quatity of coin | yes | string | header
+| fee | tariff/charge | no | integer | query
 
 ## Response
 

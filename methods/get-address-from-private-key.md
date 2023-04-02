@@ -1,6 +1,6 @@
 # Get Address From Private Key
 
-This function returns the address associated with the private key passed as an argument. It accepts an object as input and the following parameters:
+This method extracts the address associated with the provided private key by taking an object as its parameter. 
 
 {% tabs %}
 
@@ -43,6 +43,13 @@ const address = multichainWallet.getAddressFromPrivateKey({
 {% endtab %}
 
 {% endtabs %}
+
+## Parameters
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| Private Key | secret key | yes | string | header
+| network | network type | yes | string | query
 
 ## Response
 

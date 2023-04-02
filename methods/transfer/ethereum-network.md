@@ -44,7 +44,7 @@ const transfer = await multichainWallet.transfer({
 
 {% endtabs %}
 
-## override
+## Override
 
 {% tabs %}
 
@@ -85,7 +85,21 @@ const transfer = await multichainWallet.transfer({
 });
 ```
 
+{% endtab %}
+
 {% endtabs %}
+
+## Prameters
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| Private key | private key | yes | string | header
+| Token Address |  | No | string | header
+| Network | network type | yes | string | header
+| Recipient address | reciever's address | yes | string | path
+| Amount | quatity of coin | yes | string | header
+| GasPrice | tariff/charge | no | integer | query
+| data | to send a message | no | string | query
 
 ## Response
 

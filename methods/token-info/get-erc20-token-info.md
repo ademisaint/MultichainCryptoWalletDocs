@@ -12,6 +12,14 @@ const info = await multichainWallet.getTokenInfo({
 }); // NOTE - For other EVM compatible blockchains all you have to do is change the rpcUrl.
 ```
 
+## parameters
+
+| Parameter Name | Description | Required | Type | Parameter Type |
+|----------------|-------------|----------|------|----------------|
+| Address | network address | yes | string | header
+| Network | network type | yes | string | query
+| rpcUrl | rpcUrl | No | string | query
+
 ## Response
 
 ```json
