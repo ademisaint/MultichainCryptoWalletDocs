@@ -1,6 +1,6 @@
 # Generate Wallet From Mnemonic
 
-This generates a wallet from a Mnemonic phrase. The method takes an object as a parameter. This object's parameters are:
+This method generates a wallet from a Mnemonic phrase. It takes an object as a parameter. 
 
 {% tabs %}
 

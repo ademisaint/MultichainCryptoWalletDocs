@@ -1,6 +1,6 @@
 # Create Wallet
 
-A new wallet is created using this technique. A payload object can be used as a parameter for the method. The payload's parameter is:
+A new wallet is created using this method. A payload object can be used as a parameter for this method. 
 
 {% tabs %}
 

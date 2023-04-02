@@ -1,6 +1,6 @@
 # Get Transaction
 
-This function returns the transaction receipt for a given transaction hash. It takes an object as input and accepts the following parameters:
+This returns the transaction receipt for a given transaction hash. An object is provided as a parameter to this method
 
 {% tabs %}
 
