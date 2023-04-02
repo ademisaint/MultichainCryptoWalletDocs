@@ -24,9 +24,13 @@ yarn add multichain-crypto-wallet
 
 ## USAGE
 
+Using javascript;
+
 ```js
 const multichainWallet = require('multichain-crypto-wallet');
 ```
+
+Using typescript;
 
 ```ts
 import * as multichainWallet from 'multichain-crypto-wallet';
