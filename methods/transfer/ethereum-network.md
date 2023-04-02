@@ -93,13 +93,14 @@ const transfer = await multichainWallet.transfer({
 
 | Parameter Name | Description | Required | Type | Parameter Type |
 |----------------|-------------|----------|------|----------------|
-| Private key | private key | yes | string | header
-| Token Address |  | No | string | header
-| Network | network type | yes | string | header
-| Recipient address | reciever's address | yes | string | path
-| Amount | quatity of coin | yes | string | header
-| GasPrice | tariff/charge | no | integer | query
-| data | to send a message | no | string | query
+| Private key | Private key | Yes | string | header
+| Token Address | Contract address  | No | string | header
+| Network | Network type | Yes | string | header
+| Recipient address | Reciever's address | Yes | string | path
+| Amount | Quatity of coin | Yes | string | header
+| GasPrice | Tariff/charge | No | integer | query
+| Data | Conveys a message through the transaction | No | string | query
+| Nonce | The number of pending transactions | No | integer |query
 
 ## Response
 

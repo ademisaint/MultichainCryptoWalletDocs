@@ -1,6 +1,6 @@
 # Generate Wallet From Mnemonic
 
-This method generates a wallet from a Mnemonic phrase. It takes an object as a parameter. 
+This method generates a wallet from a Mnemonic phrase. It takes an object as a parameter.
 
 {% tabs %}
 
@@ -68,7 +68,6 @@ const wallet = multichainWallet.generateWalletFromMnemonic({
 |----------------|-------------|----------|------|----------------|
 | Mnemonic | mnemonics of the wallet | yes | string | header
 | Network | network type | yes | string | query
-
 
 ## Response
 

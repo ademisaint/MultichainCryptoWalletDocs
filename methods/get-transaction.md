@@ -58,7 +58,7 @@ const receipt = await multichainWallet.getTransaction({
 
 {% endtabs %}
 
-## Parameters 
+## Parameters
 
 | Parameter Name | Description | Required | Type | Parameter Type |
 |----------------|-------------|----------|------|----------------|

@@ -1,6 +1,6 @@
 # Create Wallet
 
-A new wallet is created using this method. A payload object can be used as a parameter for this method. 
+A new wallet is created using this method. A payload object can be used as a parameter for this method.
 
 {% tabs %}
 
@@ -69,4 +69,3 @@ const wallet = await multichainWallet.createWallet({
   mnemonic: 'net idle lava mango another capable inhale portion blossom fluid discover cruise'
 }
 ```
-

@@ -1,6 +1,6 @@
 # Get Address From Private Key
 
-This method extracts the address associated with the provided private key by taking an object as its parameter. 
+This method extracts the address associated with the provided private key by taking an object as its parameter.
 
 {% tabs %}
 
